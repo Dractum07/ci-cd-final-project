@@ -1,38 +1,57 @@
-# CI/CD Tools and Practices Final Project Template
+# CI/CD Tools and Practices Final Project
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+## Project Description
 
-## Usage
+This project demonstrates Continuous Integration (CI) and Continuous Delivery (CD) for a Python microservice using GitHub Actions, Flake8, Nose, Tekton, and OpenShift.
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
+The objective is to automate code linting and unit testing, then define a pipeline for building and deploying the application.
 
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
+## Technologies Used
 
-Name your repo: `ci-cd-final-project`.
+- **Python** — application and unit tests
+- **GitHub Actions** — continuous integration workflow
+- **Flake8** — Python code linting
+- **Nose** — unit testing
+- **Tekton** — CI/CD pipeline tasks
+- **OpenShift** — application deployment environment
+- **Buildah** — container image building
+
+## Project Tasks
+
+1. Create a GitHub Actions workflow for continuous integration.
+2. Run code linting with Flake8.
+3. Run unit tests with Nose.
+4. Define Tekton tasks for workspace cleanup and unit testing.
+5. Build a container image using Buildah.
+6. Deploy the application to OpenShift.
 
 ## Setup
 
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+Run the setup script in the provided lab environment:
 
 ```bash
 bash bin/setup.sh
 ```
 
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
+After the setup completes, exit the shell and start a new one so that the Python virtual environment can be activated:
 
 ```bash
 exit
 ```
 
-## Tasks
+## Repository Structure
 
+- `.github/workflows/` — GitHub Actions workflow
+- `.tekton/` — Tekton task definitions
+- `service/` — application source code
+- `tests/` — unit tests
+- `requirements.txt` — Python dependencies
+- `Dockerfile` — container image instructions
 
 ## License
 
-Licensed under the Apache License. See [LICENSE](/LICENSE)
+Licensed under the Apache License 2.0. See [LICENSE](LICENSE).
 
-## Author
+---
 
-Skills Network
-
-## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+Based on the IBM Skills Network CI/CD Tools and Practices Final Project Template.
