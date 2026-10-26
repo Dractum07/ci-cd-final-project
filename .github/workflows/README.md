@@ -1,3 +1,9 @@
-# CI/CD Tools and Practices Final Project GitHub Action Workflows
+# CI/CD Tools and Practices Final Project — GitHub Actions
 
-This directory will contain all the GitHub Action workflows you create in the CI/CD Tools and Practices Final Project.
+This directory contains the GitHub Actions workflow configuration
+for the CI/CD Tools and Practices Final Project.
+
+The workflow.yml file automates:
+- Installing Python dependencies
+- Linting code with Flake8
+- Running unit tests with Nose
