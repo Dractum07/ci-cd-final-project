@@ -1,3 +1,10 @@
-# CI/CD Tools and Practices Final Project Tekton Workflows
+# CI/CD Tools and Practices Final Project — Tekton
 
-This directory will contain all the Tekton workflows you create in the CI/CD Tools and Practices Final Project.
+This directory contains Tekton task definitions for the
+continuous delivery pipeline.
+
+The tasks.yml file defines:
+- A cleanup task to clear the source workspace
+- A Nose task to execute Python unit tests
+
+These tasks can be used with OpenShift Pipelines.
