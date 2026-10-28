@@ -1,4 +1,6 @@
-# CI/CD Tools and Practices Final Project
+# ci-cd-final-project
+
+**Project name:** ci-cd-final-project - CI/CD Tools and Practices Final Project
 
 ## Project Description
 
